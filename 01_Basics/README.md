@@ -1,42 +1,7 @@
-# Basics
-
-This folder contains beginner C programming examples.
-
-## Programs Included
+## Programs
 
 ### 1. Hello World
+Prints "Hello, World!" to the console.
 
-#### Objective
-
-Learn the basic structure of a C program.
-
-#### Program
-
-```c
-#include <stdio.h>
-
-int main()
-{
-    printf("Hello, World!\n");
-    return 0;
-}
-```
-
-#### Output
-
-Hello, World!
-
-#### Explanation
-
-- `#include <stdio.h>` includes the standard input/output library.
-- `main()` is the starting point of every C program.
-- `printf()` displays text on the screen.
-- `return 0;` indicates successful program execution.
-
-#### Time Complexity
-
-O(1)
-
-#### Space Complexity
-
-O(1)
+### 2. Data Types
+Demonstrates different C data types and displays their sizes using the `sizeof()` operator.
